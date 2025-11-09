@@ -124,26 +124,7 @@ const Navbar: React.FC<NavbarProps> = ({
       width="150"
       height="30"
       title="GitHub"
-    ></iframe>,
-    <Button
-      onClick={() => {
-        window.open(
-          'https://drive.google.com/file/d/1-r9-rDYnDJic9dnDywKTAsueehIAVp5F/view?usp=sharing',
-          '_blank'
-        );
-      }}
-      sx={{ borderRadius: '100px' }}
-      variant={'contained'}
-      startIcon={
-        <Icon
-          style={{ cursor: 'pointer' }}
-          fontSize={25}
-          icon={'hugeicons:job-search'}
-        />
-      }
-    >
-      {t('navbar.hireMe')}
-    </Button>
+    ></iframe>
   ];
   const drawerList = (
     <List>
